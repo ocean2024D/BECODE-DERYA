@@ -1,21 +1,21 @@
 // Exercise.
-// Write a function that converts an object into an array, where each element represents a key-value pair in the form of an array.
-
-// Notes
-// Return an empty array if the object is empty.
+// Create a function that will return an integer number corresponding to the amount of digits in the given integer num.
 
 // Expected results
-// toArray({ a: 1, b: 2 }) ➞ [["a", 1], ["b", 2]]
+// num_of_digits(1000) ➞ 4
 
-// toArray({ shrimp: 15, tots: 12 }) ➞ [["shrimp", 15], ["tots", 12]]
+// num_of_digits(12) ➞ 2
 
-// toArray({}) ➞ []
+// num_of_digits(1305981031) ➞ 10
 
-function toArray(object){
+// num_of_digits(0) ➞ 1
 
-    return Object.entries(object)
+function num_of_digits(number){
+
+    return Math.abs(number).toString().split("").length
 }
 
-console.log(toArray({ a: 1, b: 2 }))
-console.log(toArray({ shrimp: 15, tots: 12 }))
-console.log(toArray({}))
+console.log(num_of_digits(1000))
+console.log(num_of_digits(12))
+console.log( num_of_digits(1305981031))
+console.log( num_of_digits(0))
