@@ -514,6 +514,71 @@ hobbies : ["football", "movies", "guitar"]
 // }
 //missing quit
 
+/////////////////////////////////////////////////////
+// VARIABLES
+
+// let answer;
+// const todos = [];
+
+// // FUNCTIONS
+
+// const newTodo = () => {
+//   const todo = prompt("Insert a todo");
+//   todos.push(todo);
+// };
+
+// const listTodo = () => {
+//   console.clear();
+//   for (let i = 0; i < todos.length; i++) {
+//     console.log(i + 1 + " : " + todos[i]);
+//   }
+// };
+
+// const deleteTodo = () => {
+//   const deletedIndex = parseInt(prompt("which todo you want to delete ?"));
+
+//   if (isNaN(parseInt(deletedIndex)) || deletedIndex < 1) {
+//     console.log("This is not a valid index");
+//     return;
+//   }
+
+//   console.log(`${todos[deletedIndex - 1]} was deleted`);
+//   todos.splice(deletedIndex - 1, 1);
+// };
+
+// PROGRAM
+
+/*
+new
+list
+delete
+quit
+*/
+
+while (answer !== "quit") {
+  answer = prompt("What do you want to do ?");
+
+  switch (answer) {
+    case "new": {
+      newTodo();
+      break;
+    }
+    case "list": {
+      listTodo();
+      break;
+    }
+    case "delete": {
+      deleteTodo();
+      break;
+    }
+    case "quit": {
+      console.clear();
+      console.log("Thank you ! Bye!");
+      break;
+    }
+  }
+}
+
 //1.The-Field/WEEK-01b-02/21b.exercises.md
 
 // function dies(faces,Timess){
