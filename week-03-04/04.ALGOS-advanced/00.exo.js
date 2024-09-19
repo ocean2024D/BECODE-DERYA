@@ -29,9 +29,8 @@
 // 19
 // Buzz
 function FizzBuzz(number) {
-  for (let i = 1; i <= number; i++) {
+    for (let i = 1; i <= number; i++) {
     console.log((i % 3 === 0 ? "Fizz" : "") + (i % 5 === 0 ? "Buzz" : "") || i);
   }
 }
-
-console.log(FizzBuzz(50));
+(FizzBuzz(50));

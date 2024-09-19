@@ -17,9 +17,16 @@
 // return arrNew
 // }
 
-const removeDuplicates = arr => [...new Set(arr)];
+///////////////////////////////////////////
 
 
+// const removeDuplicates = arr => [...new Set(arr)]; or 
+
+
+const removeDuplicates = (array) => array.filter((item, index, self) => self.indexOf(item) === index);
+console.log(removeDuplicates( [4, 9, 5, 1, 3, 2, 4, 1, 8]));
 console.log(removeDuplicates([4, 9, 5, 1, 3, 2, 4, 1, 8]))
 console.log(removeDuplicates(["hello", "world", "goodbye", "world"]))
 console.log(removeDuplicates([true, true, false, true, true, false]))
+
+

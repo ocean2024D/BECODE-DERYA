@@ -24,7 +24,7 @@ function findBrokenKeys(a, b) {
   let c = a.split("");
   let d = b.split("");
   return c.filter(
-    (lettre, index, repeat) =>
+    (lettre, index, repeat) => //(repeat burada original yani c variabe)
       !d.includes(lettre) && repeat.indexOf(lettre) === index
   );
 }
