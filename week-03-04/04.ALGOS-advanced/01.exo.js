@@ -20,16 +20,14 @@
 // Test your code with these text and others.
 
 function ransomNote(noteText, magazineText) {
-  let a = noteText.split(" ");
-  let b = magazineText.split(" ");
+  let a = noteText.split(" "), b = magazineText.split(" ");
   for (let word of a) {
-    if (!b.includes(word)) {
-      return false;
-    }
+    let wordIndex = b.indexOf(word);
+    if (wordIndex === -1) return false;
+    b.splice(wordIndex, 1);
   }
   return true;
 }
-
 console.log(
   ransomNote(
     "this is a secret note to you from a secret admirer",
