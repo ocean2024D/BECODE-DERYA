@@ -1,0 +1,21 @@
+body{
+    background-color: hsl(39, 6%, 83%);
+}
+h1 { color:rgb(12, 37, 134);
+
+}
+h1>span:nth-child(1){color:#d69e36; }
+.menu>li>a{color: rgb( 134, 12, 110) ;
+
+}
+ul.menu>li>a>span{color: rgb(255, 127, 127);}
+ul>li>a>span{color: #0e5660;}
+div ul li:nth-child(2){
+    background-color: purple;
+}
+ul>li>div {
+    background-color: hsl( 39, 21%, 73%);
+}
+.content,a:nth-child(2) {
+    color: darkcyan;
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+} /*CSS Box Sizing
+The CSS box-sizing property allows us to include the padding and border in an element's total width and height.*/
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: rgb(52, 52, 52);
+  text-align: center;
+  padding: 30px;
+  font-size: 45px;
+  white-space: 2px;
+  font-weight: lighter;
+  border: solid 1px white;
+  color: white;
+}
+span {
+  color: #ffb30e;
+  font-weight: bold;
+}
+h1 {
+  padding: 30px;
+  border-bottom: solid 1px white;
+  background-color: rgb(99, 95, 95);
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-weight: thin;
+}
+p {
+ 
+  line-height: 100px;
+  /* max-width: 500px; */
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+a {
+  margin-top: 50px;
+  color: black;
+  background-color: #ffaf03;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}

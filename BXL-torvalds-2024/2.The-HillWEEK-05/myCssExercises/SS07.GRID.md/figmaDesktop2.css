@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: black;
+  }
+  .containerFlex {
+    width: 1971px;
+    height: 66px;
+    background-color: #ebcccc;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+  }
+  
+  .containerFlex1 {
+    width: 1200px;
+    height: 66px;
+  
+    background-color: #eeaeae;
+  }
+  
+  .sectionCont {
+    background-color: #a6bfc7;
+    width: 1971px;
+    height: 630px;
+    display: grid;
+ place-items: center;
+ place-content: center;
+    margin: 0 auto;
+  }
+  
+  .containerGrid {
+    width: 1200px;
+    height: 630px;
+    background-color: #89a6b0;
+    display: grid;
+    gap: 8px;
+    margin: 0 auto;
+    place-items: center;
+    place-content: center;
+  
+    grid-template-areas: "a B ";
+  }
+  .item5 {
+    grid-area: a;
+    width: 564px;
+    height: 584px;
+   
+    grid-row: 2/3;
+  
+    background-color: #be8c8c;
+  }
+  .item6 {
+    width: 564px;
+    height: 584px;
+    grid-area: b;
+    grid-row: 2/4;
+  
+    background-color: #be8c8c;
+  }
+  
+  * {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  .section3 {
+    padding: 0;
+    background-color: #a8c3ae;
+    width: 1971px;
+    height: 830px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .containerDiv {
+
+  
+    margin: auto;
+    background-color: #b8b8b8;
+    width: 1200px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 192px 192px 387px 387px;
+    grid-template-rows: 100px 134px 134px 134px 134px 100px;
+    gap: 8px;
+
+  }
+  
+  .color {
+    background-color: brown;
+  }
+  
+  .itemA {
+
+
+    grid-column: 1/6;
+    grid-row: 1/1;
+  
+    background-color: #8ea593;
+  }
+  .itemB {
+    background-color: rgb(21, 186, 115);
+    grid-column: 1/3;
+    grid-row: 2/6;
+  }
+  
+  .itemC {
+    background-color: rgb(116, 66, 0);
+  
+    grid-row: 2/4;
+  }
+  .itemD {
+    background-color: rgb(138, 25, 98);
+  
+    grid-row: 2/4;
+  }
+  .itemE {
+    background-color: rgb(167, 211, 23);
+  
+    grid-row: 4/6;
+  }
+  .itemF {
+    background-color: rgb(228, 136, 30);
+  
+    grid-row: 4/6;
+  }
+  .itemG {
+    background-color: rgb(25, 63, 255);
+    grid-column: 6/1;
+  }
+  

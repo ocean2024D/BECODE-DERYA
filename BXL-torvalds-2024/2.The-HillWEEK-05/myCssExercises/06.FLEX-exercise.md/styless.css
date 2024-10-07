@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allan:wght@400;700&family=Sixtyfour+Convergence:SCAN,XELA,YELA@69,-100,-88&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100..900&display=swap");
+body {
+  background-color: rgb(0, 3, 1);
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32.8px;
+  letter-spacing: 0.06em;
+  font-weight: 300px;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d4480;
+}
+
+.Desktop {
+  width: 288px;
+  height: 503px;
+  border-radius: 27px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  font-family: "Noto Sans Symbols", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  box-shadow: 5px 20px 50px 0px #00000099;
+}
+.basic {
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 7px;
+  font-family: "Noto Sans Symbols";
+  font-size: 36px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.Rectangle2 {
+  width: 181px;
+  height: 68px;
+  background: #ffbc0f;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32.8px;
+  letter-spacing: 0.06em;
+  border-radius: 27px;
+  color: #253868;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 500px;
+  position: absolute;
+}
+hr {
+  margin-top: 25px;
+  border: 1px solid #000000;
+}
+.line {
+  width: 188px;
+  border: 1px solid;
+  margin-top: 30px;
+}
+.free {
+  font-family: Noto Sans Symbols;
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: -15px;
+  text-align: center;
+  color: #292929;
+  font-weight: 700;
+}
+
+.forever {
+  line-height: 10px;
+  font-family: "Allan", cursive;
+  font-size: 40px;
+  color: #2d4480;
+  text-align: right;
+  transform: translateX(52px);
+  text-transform: lowercase;
+  text-transform: capitalize;
+  font-weight: 400;
+}
